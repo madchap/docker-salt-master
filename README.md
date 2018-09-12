@@ -4,19 +4,6 @@ docker-salt-master
 Salt-master docker container.
 
 
-Build
------
-
-To create the image `bbinet/salt-master`, execute the following command in the
-`docker-salt-master` folder:
-
-    docker build -t bbinet/salt-master .
-
-You can now push the new image to the public registry:
-    
-    docker push bbinet/salt-master
-
-
 Run
 ---
 
