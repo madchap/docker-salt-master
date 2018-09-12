@@ -29,7 +29,7 @@ RUN chmod a+x /run.sh
 # salt-master, salt-api
 EXPOSE 4505 4506 443
 
-ENV SALT_CONFIG /etc/salt
+ENV SALT_CONFIG /config
 ENV BEFORE_EXEC_SCRIPT ${SALT_CONFIG}/before-exec.sh
 ENV SALT_API_CMD /usr/bin/salt-api -c ${SALT_CONFIG} -d
 ENV EXEC_CMD /usr/bin/salt-master -c ${SALT_CONFIG}  --log-file-level=quiet --log-level=debug
