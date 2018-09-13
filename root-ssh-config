@@ -1,0 +1,5 @@
+Host gitlab.com
+  User git
+  StrictHostKeyChecking No
+  IdentityFile /etc/salt/master.d/ssh-saltmaster
+  IdentitiesOnly yes
