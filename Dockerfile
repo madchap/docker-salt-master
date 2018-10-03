@@ -3,7 +3,7 @@ FROM debian:stretch
 MAINTAINER Fred Blaise <fred.blaise@protonmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV SALT_VERSION latest
+ENV SALT_VERSION 2016.11
 
 RUN apt-get update && apt-get install -yq --no-install-recommends \
   gnupg
